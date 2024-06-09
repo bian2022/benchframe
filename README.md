@@ -7,7 +7,7 @@
 ## 快速开始
 
 ```
-bash <(curl https://raw.githubusercontent.com/vpslog/benchframe/main/benchframe.sh) 
+bash <(curl https://raw.githubusercontent.com/bian2022/benchframe/main/benchframe.sh) 
 ```
 
 默认运行方式不支持高级功能，请继续查看使用说明
