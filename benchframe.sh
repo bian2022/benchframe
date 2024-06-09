@@ -21,7 +21,7 @@ USE_SCREEN=false
 # 默认的 Telegram Bot Token、User ID 和 pastebin 链接
 TELEGRAM_BOT_TOKEN=""
 TELEGRAM_USER_ID=""
-PASTEBIN_URL="https://pastebin.vpslog.org/"
+PASTEBIN_URL="https://shz.al/"
 
 # 全局计数器
 counter=1
