@@ -5,9 +5,7 @@ sleep 1
 # 清屏操作
 clear
 # 打印开始信息
-echo "测试脚本聚合框架 V1.0 by VPSLOG"
 echo "Github：https://github.com/vpslog/benchframe"
-echo "运行：bash <(curl https://raw.githubusercontent.com/vpslog/benchframe/main/benchframe.sh)"
 echo  -e  "教程：https://blog.vpslog.org/blog/benchframe/\n"
 # 记录脚本开始时间
 start_time=$(date +%s)
@@ -21,7 +19,7 @@ USE_SCREEN=false
 # 默认的 Telegram Bot Token、User ID 和 pastebin 链接
 TELEGRAM_BOT_TOKEN=""
 TELEGRAM_USER_ID=""
-PASTEBIN_URL="https://pastebin.vpslog.org/"
+PASTEBIN_URL="https://shz.al/"
 
 # 全局计数器
 counter=1
@@ -53,7 +51,7 @@ if [ "$USE_SCREEN" = true ]; then
   SCREEN_ARGS=("${ALL_ARGS[@]/-d}")
 
   # 下载 benchframe.sh
-  curl -sL "https://raw.githubusercontent.com/vpslog/benchframe/main/benchframe.sh" > benchframe.sh
+  curl -sL "https://raw.githubusercontent.com/bian2022/benchframe/main/benchframe.sh" > benchframe.sh
 
   # 使用 screen 运行 benchframe.sh，并传递所有参数
   screen -dmS bench bash -c "bash benchframe.sh ${SCREEN_ARGS[*]}"
